@@ -1,0 +1,10 @@
+{
+  "name": "Min Ekonomi",
+  "short_name": "Ekonomi",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f1f5f4",
+  "theme_color": "#0f766e",
+  "lang": "sv-SE",
+  "icons": []
+}
