@@ -1,7 +1,7 @@
-# Min Ekonomi v0.16.3 Edit & Forecast Fix
+# Min Ekonomi v0.17.0 Household Profiles
 
-Fixar Ändra på vanliga poster: dialogen saknade de DOM-fält som JavaScript förväntade sig efter att Sparande återinfördes.
+Appen är personoberoende. Nya installationer frågar efter namn första gången och startar med en egen lokal hushållsprofil. Under Inställningar > Hushåll kan varje användare ändra hushållsnamn, lägga till/ta bort personer och välja standardperson. Gemensamt finns alltid som val.
 
-Framtida månader visar nu planerade återkommande inkomster/utgifter utan att bokföra dem i förtid. De markeras Planerad ↻. På förfallodagen skapar autoGenerate den riktiga posten och dublettskyddet hindrar dubbelbokning. Det betyder att t.ex. månadshyra och lön syns i februari-april 2027 redan under planering, trots att faktiska poster ännu inte ska skapas.
+Befintliga installationer migreras med Mikael/Dotter så gamla poster och arbetsflöden inte bryts; namnen kan därefter ändras i Inställningar. GitHub innehåller fortfarande bara appkoden. Ekonomidata och hushållsprofil ligger lokalt i samma IndexedDB och ingår i JSON-backupen.
 
 Visual in this file was generated with Microsoft Copilot.
