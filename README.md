@@ -1,7 +1,7 @@
-# Min Ekonomi v0.17.2 Household in Settings
+# Min Ekonomi v0.18.0 Statistics Dashboard
 
-Hushåll finns endast under Inställningar. Ingen egen Hushåll-flik. Service worker använder nytt cache-ID `min-ekonomi-v0.17.2-force-refresh`, kör skipWaiting/clients.claim och rensar samtliga äldre cacheversioner.
+Statistik omfattar nu inkomster, utgifter och sparande. Månadskort visar resultat och sparkvot. Årsdiagram visar staplar för inkomst, utgift och sparande per månad. Donutdiagram visar utgifternas huvudkategorier och procent. Årssammanfattning och budget-mot-utfall med färgade progressbars ingår. Framtida planerade återkommande poster inkluderas i statistik utan att bokföras som faktiska transaktioner.
 
-Personoberoende profil, budgetplan, sparande, intervall, återkommande, svensk helgdagslogik, planerade framtida poster samt import/export ingår.
+Inga externa chartbibliotek används; allt fungerar offline.
 
 Visual in this file was generated with Microsoft Copilot.
