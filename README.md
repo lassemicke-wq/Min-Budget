@@ -1,8 +1,8 @@
-# Min Ekonomi v0.6.0
+# Min Ekonomi v0.8.0
 
-Nyheter: snabbknapp, sökning, duplicering, återkommande poster, utgiftsprognos, sparkvot, tydligare budgetutfall, årsdiagram och backupvarning efter 30 dagar.
+Ny flik Sparande med flera sparkonton, ingående saldo, månadsmål, sparmål, insättningar, uttag, årsskiftesbeständigt saldo, prognos och överföringshistorik. Sparande räknas inte som utgift. Återkommande poster kan skapa månadssparande till valt sparkonto. Backup inkluderar sparkonton och överföringar.
 
-## Uppdatera GitHub Pages
-Ladda upp alla filer direkt i roten på `Min-Budget` och ersätt de gamla. Vänta på grön Pages-deploy. Öppna sedan appen och kontrollera att version 0.6.0 visas. Befintlig IndexedDB-data migreras och bevaras. Exportera gärna backup först.
+## Uppdatera
+Exportera backup i nuvarande app. Ladda upp samtliga filer i roten av GitHub-repositoryt `Min-Budget`, ersätt gamla filer och vänta på grön Pages-deploy. Kontrollera version 0.8.0.
 
 Visual in this file was generated with Microsoft Copilot.
