@@ -1,7 +1,7 @@
-# Min Ekonomi v0.10.0 Tropical
+# Min Ekonomi v0.11.0 Tropical Night
 
-Nyheter: tropisk snäckikon, redigera/radera vanliga poster, markering för poster skapade från återkommande mall, samt skydd mot att samma mall skapas flera gånger för samma månad. När en mall tas bort behålls redan skapad historik; skapade poster kan raderas under Poster.
+Ny mörkblå färgsättning och temaval i Inställningar: Följ systemet, Tropical Night och Tropical Day. Budgetplanen markerar månatliga återkommande utgiftsmallar med antal och fast belopp/månad. Innehåller även snäckikonen samt tidigare stöd för redigering/radering av poster och återkommande mallar, detaljvy från Översikt och dublettskydd för återkommande poster.
 
-Samma IndexedDB används. Exportera backup före uppdatering. Efter publicering kan Android behöva avinstallera och installera PWA:n igen för att visa den nya ikonen.
+Samma IndexedDB (`min-ekonomi-v1`) används så befintliga data bevaras. Exportera backup före uppdatering.
 
 Visual in this file was generated with Microsoft Copilot.
