@@ -1,5 +1,5 @@
-# Min Ekonomi v0.18.1 Interactive Dashboard
+# Min Ekonomi v0.18.2 Clickable Charts
 
-Återställer klickbar Översikt och förbättrar Statistikens mobil-layout. Inkomster, Utgifter, Planerat sparande och Sparsaldo är klickbara och visar detaljer. Årssammanfattning har kortare mobilvänlig rubrik och läggs på egen rad under donutdiagrammet på smala skärmar.
+Årsdiagrammets månadskolumner är nu tryckbara. Tryck på jan-dec för detaljkort med Inkomster, Utgifter, Sparande, Resultat och Sparkvot. Detaljkortet kan stängas. Övriga funktioner från v0.18.1 är kvar.
 
 Visual in this file was generated with Microsoft Copilot.
