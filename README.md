@@ -1,7 +1,7 @@
-# Min Ekonomi v0.9.1 Tropical
+# Min Ekonomi v0.10.0 Tropical
 
-Samma funktionalitet som v0.9.0 men med ny tropisk färgpalett: oceanblå, turkos/aqua, korall, mango och rosa accenter. Både ljust och mörkt läge har anpassats.
+Nyheter: tropisk snäckikon, redigera/radera vanliga poster, markering för poster skapade från återkommande mall, samt skydd mot att samma mall skapas flera gånger för samma månad. När en mall tas bort behålls redan skapad historik; skapade poster kan raderas under Poster.
 
-Samma IndexedDB används, så befintliga data bevaras. Exportera backup före uppdatering.
+Samma IndexedDB används. Exportera backup före uppdatering. Efter publicering kan Android behöva avinstallera och installera PWA:n igen för att visa den nya ikonen.
 
 Visual in this file was generated with Microsoft Copilot.
