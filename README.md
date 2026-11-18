@@ -1,5 +1,7 @@
-# Min Ekonomi v0.16.2 Collapse Fix II
+# Min Ekonomi v0.16.3 Edit & Forecast Fix
 
-Budgetplanens hopfällning är ombyggd från native details/summary till explicit CSS/JavaScript. De hopfällda raderna döljer nu själva budgetdetails-sektionen med display:none. Det tomma expanderande fältet ska därmed försvinna. Visa alla/Fäll ihop alla använder samma logik.
+Fixar Ändra på vanliga poster: dialogen saknade de DOM-fält som JavaScript förväntade sig efter att Sparande återinfördes.
+
+Framtida månader visar nu planerade återkommande inkomster/utgifter utan att bokföra dem i förtid. De markeras Planerad ↻. På förfallodagen skapar autoGenerate den riktiga posten och dublettskyddet hindrar dubbelbokning. Det betyder att t.ex. månadshyra och lön syns i februari-april 2027 redan under planering, trots att faktiska poster ännu inte ska skapas.
 
 Visual in this file was generated with Microsoft Copilot.
