@@ -1,7 +1,5 @@
-# Min Ekonomi v0.18.0 Statistics Dashboard
+# Min Ekonomi v0.18.1 Interactive Dashboard
 
-Statistik omfattar nu inkomster, utgifter och sparande. Månadskort visar resultat och sparkvot. Årsdiagram visar staplar för inkomst, utgift och sparande per månad. Donutdiagram visar utgifternas huvudkategorier och procent. Årssammanfattning och budget-mot-utfall med färgade progressbars ingår. Framtida planerade återkommande poster inkluderas i statistik utan att bokföras som faktiska transaktioner.
-
-Inga externa chartbibliotek används; allt fungerar offline.
+Återställer klickbar Översikt och förbättrar Statistikens mobil-layout. Inkomster, Utgifter, Planerat sparande och Sparsaldo är klickbara och visar detaljer. Årssammanfattning har kortare mobilvänlig rubrik och läggs på egen rad under donutdiagrammet på smala skärmar.
 
 Visual in this file was generated with Microsoft Copilot.
