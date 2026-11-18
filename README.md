@@ -1,5 +1,5 @@
-# Min Ekonomi v0.16.1 Collapse Fix
+# Min Ekonomi v0.16.2 Collapse Fix II
 
-Korrigerar Budgetplanens hopfällning. Summary-raden innehåller nu bara kategori, budgetbelopp och återkommande status. Budgetfält och återkommande inställningar ligger korrekt inne i den fällbara delen. Visa alla/Fäll ihop alla fungerar mot details-elementen. Alla funktioner från v0.16.0 är kvar.
+Budgetplanens hopfällning är ombyggd från native details/summary till explicit CSS/JavaScript. De hopfällda raderna döljer nu själva budgetdetails-sektionen med display:none. Det tomma expanderande fältet ska därmed försvinna. Visa alla/Fäll ihop alla använder samma logik.
 
 Visual in this file was generated with Microsoft Copilot.
