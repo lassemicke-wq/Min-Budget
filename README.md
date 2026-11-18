@@ -1,7 +1,7 @@
-# Min Ekonomi v0.17.0 Household Profiles
+# Min Ekonomi v0.17.2 Household in Settings
 
-Appen är personoberoende. Nya installationer frågar efter namn första gången och startar med en egen lokal hushållsprofil. Under Inställningar > Hushåll kan varje användare ändra hushållsnamn, lägga till/ta bort personer och välja standardperson. Gemensamt finns alltid som val.
+Hushåll finns endast under Inställningar. Ingen egen Hushåll-flik. Service worker använder nytt cache-ID `min-ekonomi-v0.17.2-force-refresh`, kör skipWaiting/clients.claim och rensar samtliga äldre cacheversioner.
 
-Befintliga installationer migreras med Mikael/Dotter så gamla poster och arbetsflöden inte bryts; namnen kan därefter ändras i Inställningar. GitHub innehåller fortfarande bara appkoden. Ekonomidata och hushållsprofil ligger lokalt i samma IndexedDB och ingår i JSON-backupen.
+Personoberoende profil, budgetplan, sparande, intervall, återkommande, svensk helgdagslogik, planerade framtida poster samt import/export ingår.
 
 Visual in this file was generated with Microsoft Copilot.
