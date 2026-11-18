@@ -1,5 +1,7 @@
-# Min Ekonomi v0.8.1
+# Min Ekonomi v0.9.1 Tropical
 
-Korrigeringar: rullistor för typ/kategori/sparkonto i återkommande poster, standarddag 25 samt läsbara kategorietiketter i ljust och mörkt läge. Samma IndexedDB används så befintlig data bevaras.
+Samma funktionalitet som v0.9.0 men med ny tropisk färgpalett: oceanblå, turkos/aqua, korall, mango och rosa accenter. Både ljust och mörkt läge har anpassats.
+
+Samma IndexedDB används, så befintliga data bevaras. Exportera backup före uppdatering.
 
 Visual in this file was generated with Microsoft Copilot.

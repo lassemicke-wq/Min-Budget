@@ -5,8 +5,8 @@
   "start_url": "/Min-Budget/?source=pwa",
   "scope": "/Min-Budget/",
   "display": "standalone",
-  "background_color": "#f1f5f4",
-  "theme_color": "#0f766e",
+  "background_color": "#e9fbf8",
+  "theme_color": "#087f8c",
   "lang": "sv-SE",
   "icons": [
     {
