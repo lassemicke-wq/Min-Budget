@@ -1,5 +1,7 @@
-# Min Ekonomi v0.15.1 Budget Intervals
+# Min Ekonomi v0.16.0 Savings & Collapsible Budget
 
-Budgetplanens återkommande rader har nu Intervall (månader), 1-120. Startdatumet bestämmer ankarmånad. 3 ger fyra debiteringar per år, 4 ger tre per år, 12 årlig. Budgetraden visar intervallet och ett utjämnat månadsgenomsnitt. Import/export och övriga inställningar från v0.14.1 är kvar.
+Budgetrader kan fällas ut/in individuellt. Visa alla och Fäll ihop alla finns högst upp. Planerat sparande visas separat i Budgetplan. Ny post kan åter välja Sparande och då väljer du sparkonto; insättningen blir en överföring och inte en utgift. Översikten visar kvar före sparande, planerat sparande, disponibelt efter sparande och totalt sparsaldo.
+
+Intervall, svenska helgdagar, import/export och övriga inställningar är kvar.
 
 Visual in this file was generated with Microsoft Copilot.
