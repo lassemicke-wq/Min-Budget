@@ -1,8 +1,5 @@
-# Min Ekonomi v0.8.0
+# Min Ekonomi v0.8.1
 
-Ny flik Sparande med flera sparkonton, ingående saldo, månadsmål, sparmål, insättningar, uttag, årsskiftesbeständigt saldo, prognos och överföringshistorik. Sparande räknas inte som utgift. Återkommande poster kan skapa månadssparande till valt sparkonto. Backup inkluderar sparkonton och överföringar.
-
-## Uppdatera
-Exportera backup i nuvarande app. Ladda upp samtliga filer i roten av GitHub-repositoryt `Min-Budget`, ersätt gamla filer och vänta på grön Pages-deploy. Kontrollera version 0.8.0.
+Korrigeringar: rullistor för typ/kategori/sparkonto i återkommande poster, standarddag 25 samt läsbara kategorietiketter i ljust och mörkt läge. Samma IndexedDB används så befintlig data bevaras.
 
 Visual in this file was generated with Microsoft Copilot.
