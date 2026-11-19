@@ -1,5 +1,7 @@
-# Min Ekonomi v0.18.8 Clean Integrated
+# Min Ekonomi v0.18.9 Recurring Editor Runtime Fix
 
-Ren integrerad version utan patchfil. app.js och index.html visar båda v0.18.8. Datumstyrda sparkontouttag är integrerade direkt i app.js. Återkommande inline-redigering kommer oförändrad från den fungerande v0.18.5-basen.
+Rotorsaken till att Ändra på Återkommande inte reagerade var ett JavaScript runtime-fel i strict mode: variabeln `type` i recEditor tilldelades utan `let`. Klickhanteringen fungerade, men redigeringsfunktionen avbröts direkt med ReferenceError. Variabeln deklareras nu korrekt.
+
+Datumstyrda sparkontouttag är fortsatt integrerade direkt i app.js. Ingen patchfil används.
 
 Visual in this file was generated with Microsoft Copilot.
