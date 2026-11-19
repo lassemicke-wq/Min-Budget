@@ -41,7 +41,7 @@
     };
     // Linked delete: remove expense and matching withdrawal together after one confirmation.
     document.addEventListener('click',async e=>{
-      const btn=e.target.closest('button[data-del]');if(!btn)return;const tx=S.transactions.find(t=>t.id===btn.dataset.del);if(!tx||!tx.linkedSavingsTransferId)return;
+      const btn=e.target.closest('button[data-del]');if(!btn||e.target.closest('.recurringItem'))return;const tx=S.transactions.find(t=>t.id===btn.dataset.del);if(!tx||!tx.linkedSavingsTransferId)return;
       e.preventDefault();e.stopImmediatePropagation();
       if(confirm('Ta bort utgiften och det kopplade uttaget från sparkontot?')){
         S.transactions=S.transactions.filter(t=>t.id!==tx.id);S.savingsTransfers=S.savingsTransfers.filter(t=>t.id!==tx.linkedSavingsTransferId);await save();render();
@@ -49,11 +49,13 @@
     },true);
     // Manual savings movements also receive an explicit date.
     document.addEventListener('click',async e=>{
-      const btn=e.target.closest('button[data-dep],button[data-out]');if(!btn)return;
+      const btn=e.target.closest('button[data-dep],button[data-out]');if(!btn||!e.target.closest('#view'))return;
       e.preventDefault();e.stopImmediatePropagation();const accountId=btn.dataset.dep||btn.dataset.out,direction=btn.dataset.dep?'deposit':'withdraw',amount=+prompt(direction==='deposit'?'Insättning:':'Uttag:','0');if(!(amount>0))return;
       const date=prompt('Datum (ÅÅÅÅ-MM-DD):',(new Date()).toISOString().slice(0,10));if(!/^\d{4}-\d{2}-\d{2}$/.test(date||''))return alert('Ange datum som ÅÅÅÅ-MM-DD.');
       const note=prompt('Kommentar:','')||'';S.savingsTransfers.push({id:crypto.randomUUID(),accountId,direction,amount,date,note});await save();render();
     },true);
+
+    document.addEventListener('click',e=>{const btn=e.target.closest('button[data-editrec]');if(!btn)return;const item=btn.closest('.recurringItem');if(!item)return;const r=S.recurring.find(x=>x.id===btn.dataset.editrec);const host=item.querySelector('.inlineRecEditor');if(!r||!host)return;e.preventDefault();e.stopImmediatePropagation();document.querySelectorAll('.inlineRecEditor').forEach(x=>{if(x!==host)x.innerHTML=''});recEditor(r,host);host.scrollIntoView({behavior:'smooth',block:'nearest'});},true);
     const h=document.querySelector('header div');if(h&&!h.textContent.includes(PATCH_VERSION))h.textContent=h.textContent.replace(/version\s+[^·]+/i,`version ${PATCH_VERSION}`);
   }
   setTimeout(init,0);

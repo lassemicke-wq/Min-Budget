@@ -1,7 +1,5 @@
-# Min Ekonomi v0.18.6 Linked Savings - komplett paket
+# Min Ekonomi v0.18.7 Recurring Edit Fix
 
-Ingen manuell kodredigering behövs. Ladda upp samtliga filer direkt i GitHub-repositoryts rot och ersätt befintliga filer.
-
-Utgifter kan betalas från vanligt konto eller sparkonto. Kopplat sparkontouttag får samma datum och belopp, följer redigering och kan tas bort med utgiften. Manuella insättningar/uttag får datum. Framtida uttag påverkar inte dagens saldo före datumet.
+Fixar Ändra på Återkommande efter Linked Savings-uppdateringen. Sparkonto-patchens globala klickhantering är avgränsad och återkommande Ändra fångas explicit och öppnar inline-editorn direkt under vald post. Övriga v0.18.6-funktioner är kvar.
 
 Visual in this file was generated with Microsoft Copilot.
