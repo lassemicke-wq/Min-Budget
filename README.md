@@ -1,10 +1,7 @@
-# Min Ekonomi v0.18.6 patch
+# Min Ekonomi v0.18.6 Linked Savings - komplett paket
 
-Detta är en säker patch ovanpå v0.18.5.
+Ingen manuell kodredigering behövs. Ladda upp samtliga filer direkt i GitHub-repositoryts rot och ersätt befintliga filer.
 
-1. Ladda upp `patch-v0186.js` och ersätt `sw.js` i repositoryts rot.
-2. Öppna `index.html` i GitHub och lägg till följande rad direkt efter `<script src="./app.js"></script>`:
+Utgifter kan betalas från vanligt konto eller sparkonto. Kopplat sparkontouttag får samma datum och belopp, följer redigering och kan tas bort med utgiften. Manuella insättningar/uttag får datum. Framtida uttag påverkar inte dagens saldo före datumet.
 
-`<script src="./patch-v0186.js"></script>`
-
-Utgifter får valet Betalas från: Vanligt konto eller ett sparkonto. Sparkontouttaget skapas med samma datum och belopp, följer med vid redigering och tas bort tillsammans med utgiften efter bekräftelse. Manuella insättningar/uttag frågar också efter datum. Framtida uttag påverkar inte dagens sparkontosaldo förrän datumet nås.
+Visual in this file was generated with Microsoft Copilot.
