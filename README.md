@@ -1,5 +1,5 @@
-# Min Ekonomi v0.18.3 Add Forms Restored
+# Min Ekonomi v0.18.4 Category Manager Restored
 
-Återställer + Ny återkommande med stöd för Inkomst, Utgift och Sparande samt redigering. Budgetplanen visar nu både Planerade inkomster och Planerade utgifter. Inkomstkategorier kan få budgetbelopp och återkommande mall direkt från Budgetplan. Statistik och klickbara diagram från v0.18.2 är kvar.
+Återställer skapande av egna kategorier under Inställningar. Ange namn, Inkomst/Utgift och huvudkategori. Nya kategorier blir direkt tillgängliga i Poster, Återkommande och Budgetplan. En regressionskontroll verifierar också hushåll, återkommande, planerade inkomster, klickbar översikt och tryckbara diagram.
 
 Visual in this file was generated with Microsoft Copilot.
